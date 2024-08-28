@@ -1,0 +1,46 @@
+.Calendar {
+  background-color: white;
+  box-shadow: 0px 2px 6px #0000000a;
+  opacity: 1;
+}
+.PageName {
+  position: absolute;
+  font-size: 28px;
+  top: 102px;
+}
+.rbc-active {
+  box-shadow: none !important;
+  background: none !important;
+  color: #3b86ff !important;
+}
+.rbc-btn-group {
+  margin-bottom: 50px;
+}
+.rbc-date-cell {
+  margin-right: 10px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.rbc-header {
+  color: #a3a6b4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  background-color: #f5f6fa;
+}
+.rbc-event {
+  background-color: #3b86ff !important;
+  padding: 7px 0px 7px 14px !important;
+  font-size: 13px;
+}
+.rbc-toolbar-label {
+  color: #4d4f5c;
+  font-weight: initial;
+}
+.rbc-today {
+  background-color: #f5f6fa !important;
+}
+.rbc-off-range-bg {
+  background-color: white !important;
+}

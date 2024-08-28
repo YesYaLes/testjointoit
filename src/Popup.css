@@ -1,0 +1,73 @@
+.Popup {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* justify-content: center; */
+  align-items: center;
+  position: absolute;
+  top: 500px;
+  left: 800px;
+  width: 200px;
+  height: 275px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 18px #00000029;
+  border: 1px solid #43425d;
+  border-radius: 10px;
+  opacity: 1;
+  z-index: 1000;
+}
+.InputBlock {
+  font-size: 9px;
+  display: flex;
+  flex-direction: column;
+  height: 29px;
+}
+.InputImg {
+  position: absolute;
+  right: 27px;
+  height: 18px;
+  width: 18px;
+}
+.InputBlockName {
+  color: #d6d6d6;
+}
+.InputBlockPole {
+  box-sizing: border-box;
+  width: 100%;
+
+  border: none;
+}
+
+.UnderLine {
+  width: 100%;
+  height: 1px;
+  background-color: #d6d6d6;
+}
+.CloseBtn {
+  display: flex;
+  border-color: #d6d6d6;
+  justify-content: center;
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  position: absolute;
+  top: 6px;
+  right: 6px;
+}
+.BtnsBlock {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  bottom: 25px;
+}
+.SingleBtn {
+  transition: all 0.5s;
+}
+.SingleBtn:hover {
+  transition: all 0.5s;
+  scale: 1.2;
+}
